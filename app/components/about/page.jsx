@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export const AboutPage = () => {
@@ -5,7 +6,7 @@ export const AboutPage = () => {
     <main>
       <h1>About us</h1>
       <p>
-        <a href="/">Homepage</a>
+        <Link href="/">Homepage</Link>
       </p>
     </main>
   )
