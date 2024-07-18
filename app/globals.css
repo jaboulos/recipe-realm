@@ -13,6 +13,17 @@ body {
   background: radial-gradient(#282c34, #282c34);
 }
 
+a {
+  text-decoration: none;
+  color: lightblue; /* Set your desired link color */
+}
+
+/* Mouse over link */
+a:hover,
+a:active {
+  color: red; /* Set your desired hover and active color */
+}
+
 .header-background {
   position: absolute;
   width: 100%;
